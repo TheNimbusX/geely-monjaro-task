@@ -1,0 +1,10 @@
+extends ../layouts/default
+
+block variables
+  - var title = "Geely Landing";
+  - var pageStylesheet = "/index.css";
+
+block content
+  include ../components/header/header.pug
+  include ../components/main/main.pug
+  include ../components/footer/footer.pug
